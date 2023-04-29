@@ -1,0 +1,56 @@
+.background {
+	background: url(../../img/bug-background.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+.overlay {
+	background: #00000094;
+	backdrop-filter: blur(10px);
+	height: 100vh;
+}
+.custom-container{
+  display: flex;
+	/* justify-content: space-evenly; */
+	/* align-items: stretch; */
+  flex-direction: column;
+  height: 100%;
+}
+.container-center {
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.home-form {
+	width: 600px;
+	background-color: #d35400;
+	height: auto;
+	box-shadow: rgb(0 0 0 / 50%) 0px 5px 15px;
+	border-radius: 10px;
+	padding: 20px;
+}
+.trip {
+	padding: 10px 13px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.btn-white {
+	background-color: #ffffff !important;
+	color: rgb(54, 54, 54);
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 687px) {
+	.trip {
+		padding: 10px 92px;
+	}
+}
+@media only screen and (min-width: 688px) and (max-width: 991px) {
+	.trip,
+	.form-control {
+		padding: 5px 50px;
+	}
+}

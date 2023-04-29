@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+
+a svg{
+  fill: currentColor;
+  width: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.dashboard-bg {
+  background-image: linear-gradient(to bottom, #d9f9ffe5, #9b9b9bd8),
+    url('/public/img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+
+.bg-blur{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.nav-link{
+  color: rgb(37, 37, 37) !important;
+}
+
+a:hover{
+  color: inherit !important;
+}
